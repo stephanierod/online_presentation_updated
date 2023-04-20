@@ -6,21 +6,20 @@ date: "2023/04/10 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: ["hygge", "rutgers", "rutgers-fonts"]
+    css: [default, rutgers, rutgers-fonts]
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
 ---
-```{r, load-library, include=FALSE}
+```{r, load-library, echo = FALSE, include = FALSE, warning = FALSE}
 library(tidyverse)
 library(knitr)
 library(kableExtra)
 library(dplyr)
 ```
 
----
 # Article 
 Zhao, Nan. (2022). Speech Disfluencies in Consecutive Interpreting by Student Interpreters: The Role of Language Proficiency, Working Memory, and Anxiety. Frontiers in Psychology. 13. 881778. 10.3389/fpsyg.2022.881778. 
 
